@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MobikulPaymentLayout">
+        <attr name="logoVisible" format="boolean"/>
+        <attr name="orderVisible" format="boolean"/>
+        <attr name="logoIcon" format="integer"/>
+    </declare-styleable>
+</resources>

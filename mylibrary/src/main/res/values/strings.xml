@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="ask_want_to_proceed">Do you want to proceed?</string>
+    <string name="mobikul_loading">loading...</string>
+    <string name="order_for">Order for %s</string>
+
+</resources>
