@@ -3,7 +3,7 @@ It is a demo project of opening url in WebView and also it change urls the URL a
 use for the opening Base URL of Payment Gateway and close when Webview when Redirect url meet.
 
 ## How to use?
-1.download mylibrary folder and add its dependency in you app level build.gradle file.
+1.download mylibrary folder and add its dependency in you app level  ```build.gradle``` file.
 ``` java
    dependencies {
         compile project(':mylibrary')
@@ -20,7 +20,7 @@ use for the opening Base URL of Payment Gateway and close when Webview when Redi
        />
 ```
 3. Initilize <b>BASE_URL</b> and <b>Redirect_URL</b> in your Activity.
- ```
+ ```java
     MobikulPaymentLayout paymentWebView = (MobikulPaymentLayout) findViewById(R.id.paymentWebView);
     paymentWebView.initilize(BASE_URL, REDIRECT_URL,  "500$", context);
 ```  
